@@ -356,6 +356,9 @@ textarea.input {
   opacity: 0.8;
   font-weight: 500;
   letter-spacing: 0.009375rem;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
 }
 
 .select__value > * {
@@ -457,6 +460,9 @@ textarea.input {
   font-size: 0.875rem;
   line-height: 1.5714285714;
   font-weight: 700;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .page__form .select__option {
@@ -4838,8 +4844,17 @@ textarea.input {
     color: #f2726f;
   }
 
+  .page__form .select__value:hover {
+    opacity: 1;
+  }
+
   .select__option:hover {
-    background: #d9d9d9;
+    color: #f2726f;
+  }
+
+  .page__form .select__option:hover {
+    color: #ffffff;
+    opacity: 1;
   }
 
   .top-header .phone-top-header__body:hover {

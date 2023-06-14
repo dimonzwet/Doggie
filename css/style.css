@@ -328,7 +328,7 @@ textarea.input {
 .page__form .select__title {
   opacity: 0.8;
   letter-spacing: 0.009375rem;
-  border: 2px solid hwb(0 100% 0%/0.8);
+  border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 0.625rem;
 }
 

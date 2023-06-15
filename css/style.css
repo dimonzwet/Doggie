@@ -2170,7 +2170,7 @@ textarea.input {
   }
 
   .body-impact__header:not(:last-child) {
-    margin-bottom: 0.9375rem;
+    margin-bottom: 2.8125rem;
   }
 }
 
@@ -2378,11 +2378,11 @@ textarea.input {
   }
 
   .who__picture {
-    margin-top: -1.25rem;
+    margin-top: -0.625rem;
   }
 
   .who__picture {
-    bottom: -1.875rem;
+    bottom: -1.25rem;
   }
 
   .who__image-ibg img {
@@ -2520,7 +2520,7 @@ textarea.input {
   }
 
   .body-impact:not(:last-child) {
-    margin-bottom: 0.9375rem;
+    margin-bottom: 2.1875rem;
   }
 
   .item-impact {
@@ -3579,30 +3579,30 @@ textarea.input {
     }
 }
 
-@supports (margin-top: clamp( -7.5rem , 1.4897260274rem  +  -13.698630137vw , -1.25rem )) {
+@supports (margin-top: clamp( -7.5rem , 2.3886986301rem  +  -15.0684931507vw , -0.625rem )) {
     .who__picture {
-      margin-top: clamp( -7.5rem , 1.4897260274rem  +  -13.698630137vw , -1.25rem );
+      margin-top: clamp( -7.5rem , 2.3886986301rem  +  -15.0684931507vw , -0.625rem );
     }
 }
 
-@supports not (margin-top: clamp( -7.5rem , 1.4897260274rem  +  -13.698630137vw , -1.25rem )) {
+@supports not (margin-top: clamp( -7.5rem , 2.3886986301rem  +  -15.0684931507vw , -0.625rem )) {
     .who__picture {
       margin-top: calc(
-				-1.25rem + -6.25 * (100vw - 20rem) / 45.625
+				-0.625rem + -6.875 * (100vw - 20rem) / 45.625
 			);
     }
 }
 
-@supports (bottom: clamp( -7.5rem , 0.5907534247rem  +  -12.3287671233vw , -1.875rem )) {
+@supports (bottom: clamp( -7.5rem , 1.4897260274rem  +  -13.698630137vw , -1.25rem )) {
     .who__picture {
-      bottom: clamp( -7.5rem , 0.5907534247rem  +  -12.3287671233vw , -1.875rem );
+      bottom: clamp( -7.5rem , 1.4897260274rem  +  -13.698630137vw , -1.25rem );
     }
 }
 
-@supports not (bottom: clamp( -7.5rem , 0.5907534247rem  +  -12.3287671233vw , -1.875rem )) {
+@supports not (bottom: clamp( -7.5rem , 1.4897260274rem  +  -13.698630137vw , -1.25rem )) {
     .who__picture {
       bottom: calc(
-				-1.875rem + -5.625 * (100vw - 20rem) / 45.625
+				-1.25rem + -6.25 * (100vw - 20rem) / 45.625
 			);
     }
 }
@@ -4077,16 +4077,16 @@ textarea.input {
     }
 }
 
-@supports (margin-bottom: clamp( 0.9375rem , -0.9803082192rem  +  9.5890410959vw , 5.3125rem )) {
+@supports (margin-bottom: clamp( 2.1875rem , 0.8176369863rem  +  6.8493150685vw , 5.3125rem )) {
     .body-impact:not(:last-child) {
-      margin-bottom: clamp( 0.9375rem , -0.9803082192rem  +  9.5890410959vw , 5.3125rem );
+      margin-bottom: clamp( 2.1875rem , 0.8176369863rem  +  6.8493150685vw , 5.3125rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 0.9375rem , -0.9803082192rem  +  9.5890410959vw , 5.3125rem )) {
+@supports not (margin-bottom: clamp( 2.1875rem , 0.8176369863rem  +  6.8493150685vw , 5.3125rem )) {
     .body-impact:not(:last-child) {
       margin-bottom: calc(
-				0.9375rem + 4.375 * (100vw - 20rem) / 45.625
+				2.1875rem + 3.125 * (100vw - 20rem) / 45.625
 			);
     }
 }
